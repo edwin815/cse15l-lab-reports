@@ -16,5 +16,5 @@
      ```
    * The working directory was `/home/lecture1` after `cd lecture` was ran
    * lecture1 was given as an argument to the cd command, since `lecture1` is a subdirectory of `/home`, the directory was
-   * changed to lecture1
+     changed to lecture1
    * There was no error
