@@ -30,7 +30,6 @@
      a directory
    * There was an error because Hello.java is not a directory, `cd` means to "change directory" and only takes directories
      as arguments
-
 ## Tests for 'ls'
 1. `ls` Tested using no arguments
    * ```
