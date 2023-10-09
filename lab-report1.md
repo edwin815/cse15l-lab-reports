@@ -1,5 +1,4 @@
 # Lab Report 1
-
 ## Tests for 'cd'
 1. `cd` Tested using no arguments
    * ```
