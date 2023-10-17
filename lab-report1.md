@@ -6,15 +6,18 @@
      [user@sahara ~]$
      ```
    * The working directory was `/home` when `cd` was ran
-   * No argument was given to the cd command, so the directory was never changed
+   * No argument was given to the cd command, so the directory was never changed since it was already in `/home`
    * There was no error
      
    * ```
      [user@sahara ~/lecture1]$ cd
      [user@sahara ~]$
+     [user@sahara ~]$ pwd
+     /home
+     [user@sahara ~]$
      ```
    * The working directory was `/home` when `cd` was ran
-   * No argument was given to the cd command, so the directory was never changed
+   * Since no argument was given to the `cd` command, the directory went back to `/home`
    * There was no error
   
 2. `cd` Test using a directory as an argument
