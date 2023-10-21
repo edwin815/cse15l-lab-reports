@@ -46,3 +46,4 @@ class StringServer {
     }
 }
 ```
+1. `add-message
