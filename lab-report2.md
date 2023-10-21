@@ -47,3 +47,5 @@ class StringServer {
 }
 ```
 1. `add-message
+    ![Image](addMessageHello.jpg)
+   
