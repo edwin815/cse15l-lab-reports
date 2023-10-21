@@ -46,6 +46,6 @@ class StringServer {
     }
 }
 ```
-1. `add-message
+1. `/add-message` Tested Using 
     ![Image](addMessageHello.jpg)
    
