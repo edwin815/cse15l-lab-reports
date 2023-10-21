@@ -46,6 +46,7 @@ class StringServer {
     }
 }
 ```
-1. `/add-message` Tested Using 
+1. `/add-message` Tested Using `Hello` as Query
+2. 
     ![Image](addMessageHello.jpg)
    
