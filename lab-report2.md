@@ -65,7 +65,7 @@ class StringServer {
      `parameters[1]` is concatenated to `Output`, which becomes `1. Hello` as a result of the line
      `Output += ((num) + ". " + parameters[1] + "\n");`
 
-3. `/add-message` Tested Using `How are You` as Query
+2. `/add-message` Tested Using `How are You` as Query
 
     ![Image](addMessageHowAre.jpg)
 
@@ -79,5 +79,10 @@ class StringServer {
      as `String Output = "1. Hello`, the string taken in from the argument `url` in the form of
      `parameters[1]` is concatenated to `Output`, which becomes `1. Hello` followed by a new line
      then `2. How are You` as a result of `Output += ((num) + ". " + parameters[1] + "\n");`
+
+## Part 2
+
+### Testing with ls
+
    
    
