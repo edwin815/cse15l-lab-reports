@@ -98,9 +98,10 @@ class StringServer {
 
 ## Part 3
 
-### Something I learned
+   -Something I learned from the lab was using git and bash in the vscode terminal. I've seen it done before
+    from previous professors but I never learned how to install and use it. 
 
-    -asdfasdfasdfasdfsadf
+    
 
    
    
