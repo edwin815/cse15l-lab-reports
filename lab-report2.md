@@ -84,7 +84,23 @@ class StringServer {
 
 ### Testing with `ls`
 
+1. Path to private key of `ieng6`
 
+    ![Image](lsTest.jpg)
+
+2. Path to public key of `ieng6`
+
+   ![Image](lsTest.jpg)
+
+3. Logging into `ieng6` without a password
+
+   ![Image](sshIeng6.jpg)
+
+## Part 3
+
+### Something I learned
+
+    -asdfasdfasdfasdfsadf
 
    
    
