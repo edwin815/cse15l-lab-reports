@@ -1,7 +1,7 @@
 # Lab Report 2
 
 ## Part 1
-## Code for StringServer
+### Code for StringServer
 
 ```
 import java.io.IOException;
@@ -48,6 +48,8 @@ class StringServer {
     }
 }
 ```
+### Description of Screenshots
+
 1. `/add-message` Tested Using `Hello` as Query
    
     ![Image](addMessageHello.jpg)
