@@ -88,18 +88,25 @@ class StringServer {
 
     ![Image](lsTest.jpg)
 
-2. Path to public key of `ieng6`
+   The private key is shown with `id_rsa` and is given with the path `~/c/user/edwin/.ssh/id_rsa`
+
+3. Path to public key of `ieng6`
 
    ![Image](lsTest.jpg)
 
-3. Logging into `ieng6` without a password
+   The private key is shown with `id_rsa.pub` and is given with the path `~/c/user/edwin/.ssh/id_rsa.pub`
+
+5. Logging into `ieng6` without a password
 
    ![Image](sshIeng6.jpg)
 
 ## Part 3
 
    -Something I learned from the lab was using git and bash in the vscode terminal. I've seen it done before
-    from previous professors but I never learned how to install and use it. 
+    from previous professors but I never learned how to install and use it. I also got to see how queries 
+    are taken in from a website address and how it responds to the actual code written such as when the server
+    was running and how the queries would be taken through the conditonal statements to see if the query would
+    result in an output.
 
     
 
