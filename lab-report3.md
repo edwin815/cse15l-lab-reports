@@ -38,7 +38,7 @@ and due to the fact that there is only one element in the LinkedList, it returns
 
 ### Symptom of Failure
 
-![Image](symptom1.png)
+![Image](symptom1.jpg)
 
 While it does not specifically state that it has an infinite loop, the program never
 stops running and needs to be stopped with a system interrupt.
