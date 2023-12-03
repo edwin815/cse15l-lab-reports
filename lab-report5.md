@@ -3,7 +3,6 @@
 # Part 1: Debugging Scenario
 
 ### Original Student Post
-![Image](labReportEdStem.jpg)
 
 I ran my code with two JUnit tests and it infinite loops. I have to use a system interrupt in order to stop the code.
 When I run the code with the singular JUnit test of testing if the LinkedList is empty, it runs perfectly fine. However,
@@ -18,7 +17,6 @@ or what would cause it to stop. Make sure the varialbes you decide to update ins
 want to update, and are the correct values you want to assign to those variables. 
 
 ### Student Response to TA
-![Image](fixedTerminalOutput.jpg)
 ![Image](fixedCode.jpg)
 
 I found the error. In my add statement, there is a a loop for adding to the linkedList when is more than one element in 
