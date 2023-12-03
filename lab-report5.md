@@ -4,6 +4,7 @@
 
 ### Original Student Post
 ![Image](labReportEdStem.jpg)
+
 I ran my code with two JUnit tests and it infinite loops. I have to use a system interrupt in order to stop the code.
 When I run the code with the singular JUnit test of testing if the LinkedList is empty, it runs perfectly fine. However,
 when I try to add the second JUnit test of adding adding another item, it decides to infinite loop. I have while loops
@@ -19,6 +20,7 @@ want to update, and are the correct values you want to assign to those variables
 ### Student Response to TA
 ![Image](fixedTerminalOutput.jpg)
 ![Image](fixedCode.jpg)
+
 I found the error. In my add statement, there is a a loop for adding to the linkedList when is more than one element in 
 the list. I had mistakenly had it so everytime the while loop ran, the statement `n.next = new Node(value, null);` would
 execute as it was inside the loop, and a new node would be created with the value to be added, and the check `n.next != null`
