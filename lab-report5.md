@@ -26,3 +26,32 @@ the list. I had mistakenly had it so everytime the while loop ran, the statement
 execute as it was inside the loop, and a new node would be created with the value to be added, and the check `n.next != null`
 would never return false, and the loop would continously run.
 
+### Bug Info
+There were three files inside a directory called `lab3` that were used. The files were given in a previous lab and contained
+the files `LinkedListExample.java` `LinkedListTests.java` and the `test.sh` bash script was created by me. In the `LinkedListExample.java`
+file it contained all general working functions of a linked list; a node, adding a node, returning the first and last element,
+the length etc. The main focus was in the `append(int value)` function where it would add to the end of the list, in that 
+function, there is a problem with the part of the function that allows it to loop through to the end of a linked list and add
+a new value there. This is where the JUnit tests from `LinkedListTests.java` come in, there is a JUnit test in `LinkedListTests.java` 
+where it adds 6 values to the linked list, so it ends up calling every part of the add function at some point. However, after 
+using `sh test.sh` with the `test.sh` bash script which contain the necessary commands for `javac` and `java` to compile and run the files,
+the JUnit test runs into an infinite loop because of an error in the add statement. This is seen in the code as:
+```
+        while(n.next != null) {
+            n = n.next;
+            n.next = new Node(value, null);
+        }
+        return;
+```
+The error is that the `n.next = new Node(value, null);` statement needs to be outside of the loop to createa new node after 
+reaching the end of the while loop; if it stays inside the while loop as it is currently; the loop will keep creating new 
+nodes with valid values and `n.next` will never be null and therefore the loop will never end, to fix this, the statement is
+moved outside:
+```
+        while(n.next != null) {
+            n = n.next;
+        }
+        n.next = new Node(value, null);
+        return;
+```
+When the statement is moved outside, the loop correctly loops from the front of the linked list to the end of the linked list, and then and only then is a new node created with the value that is to be added.
