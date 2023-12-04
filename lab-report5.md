@@ -54,4 +54,13 @@ moved outside:
         n.next = new Node(value, null);
         return;
 ```
-When the statement is moved outside, the loop correctly loops from the front of the linked list to the end of the linked list, and then and only then is a new node created with the value that is to be added.
+When the statement is moved outside, the loop correctly loops from the front of the linked list to the end of the linked list, 
+and then and only then is a new node created with the value that is to be added.
+
+# Part 2: Reflection
+I appreciate the consistent use of bash scripting, github, and sometimes vim. I think especially with things such as bash 
+and github where in the future I would expect to work in a unix enviroment and use things like github for version control 
+when working with teams. On vim, the search functions that I learned actually became useful when I was doing programming
+assignments for CSE30 and it saved some time when trying to locate certain variables or where functions were called. I think
+it was very useful to get started with using things such as bash, github, and vim, because even though it is still 
+relatively new material to me, having enough info to get started is very useful for the future. 
